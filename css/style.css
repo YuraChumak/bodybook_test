@@ -1,10 +1,10 @@
 body {
-    font-family: Century Gothic,sans-serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
+     font-family: Century Gothic,sans-serif;
+     font-size: 14px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+ }
 .list {
     list-style-type: none;
 }
@@ -227,8 +227,8 @@ h1{
     color: #fff;
 }
 .login form .col-md-6{
-     padding-right: 75px;
- }
+    padding-right: 75px;
+}
 .login form .col-md-6:first-child{
     text-align: center;
 }
@@ -264,8 +264,8 @@ h1{
     background-position: -60px 0;
 }
 .soc_list li a.twitter{
-     background-position: -120px 0;
- }
+    background-position: -120px 0;
+}
 .soc_list li a.google_plus{
     background-position: -180px 0;
 }
@@ -544,7 +544,8 @@ nav ul li a.active{
     padding: 0 15px;
 }
 .specialist .col-md-4 .col-md-4,
-.anketa .box{
+.anketa .box,
+.message .box{
     background-color: #cede5e;
     border-radius: 5px;
     color: #a0af35;
@@ -566,7 +567,8 @@ nav ul li a.active{
     font-size: 16px;
     padding-right: 75px;
 }
-.specialist .col-md-8 a{
+.specialist .col-md-8 a,
+.message .send{
     background-color: #cede5e;
     border-radius: 5px;
     color: #a0af35;
@@ -1042,4 +1044,107 @@ input.green_btn{
     color: #cede5e;
     border-radius: 5px;
     padding: 3px;
+}
+.discount{
+    border: 1px solid #dcdcdc;
+    color: #9dac2f;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+}
+.discount img{
+    max-width: 265px;
+}
+.discount .value{
+    background-color: #cede5e;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100px;
+}
+.price{
+    border-radius: 5px;
+    color: #9dac2f;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+.time{
+    background: url("../img/clock_icon.png") no-repeat left center;
+    float: right;
+    font-size: 10px;
+    margin-top: 15px;
+    padding: 10px 0 10px 40px;
+}
+.message{
+    color: #a0af35;
+    font-size: 16px;
+    padding-top: 60px;
+}
+.message .col-md-10 div:first-child{
+    font-size: 18px;
+    font-weight: 600;
+}
+.message textarea,
+.message label{
+    border: 2px solid #cede5e;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.message textarea{
+    height: 100px;
+    margin: 30px 0 20px;
+}
+.message label{
+    color: #a0af35;
+    cursor: pointer;
+    font-weight: bold;
+    width: auto;
+}
+.message label input{
+    display: none;
+}
+.message .send{
+    border: 0;
+    margin: 0;
+    padding: 5px;
+}
+.search.left_side{
+    left: 0;
+    right: auto;
+}
+.news{
+    color: #6c7a19;
+    font-size: 16px;
+    min-height: 1100px;
+}
+.news .green_bg{
+    background: #cede5e;
+    height: 220px;
+    width: 100%;
+}
+.news_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: center;
+}
+.news .choose a.send{
+    background: #cfe15b;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.news+.green_btn{
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 165px;
 }
