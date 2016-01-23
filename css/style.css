@@ -59,6 +59,20 @@ h1{
     margin-bottom: 20px;
     width: 655px;
 }
+.fixed nav{
+    float: right;
+    margin-right: -40px;
+}
+.fixed nav ul li{
+    height: 88px;
+    vertical-align: top;
+}
+.fixed nav ul li a{
+    height: 100%;
+}
+.fixed .little_logo{
+    margin: 0 0 0 -50px;
+}
 .title{
     color: #697717;
     font-size: 18px;
