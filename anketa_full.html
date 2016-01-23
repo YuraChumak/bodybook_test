@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a class="little_logo" href="#"><img src="img/little_logo.png"></a>
+        <nav>
+            <ul class="list">
+                <li><a href="#">Книга контактов</a></li>
+                <li><a href="#">Профиль</a></li>
+                <li><a href="#">Афиша</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Настройки</a></li>
+                <li><a href="#">Выйти</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </div>
+</header>
+<section class="list_of_spec doctors specialist" id="target">
+    <div class="container">
+        <!--<ul class="list tabs profile nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#prof_data" aria-controls="prof_data" role="tab" data-toggle="tab">Профессиональные данные</a></li>
+            <li role="presentation"><a href="#event" aria-controls="event" role="tab" data-toggle="tab">Добавить событие</a></li>
+            <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">Добавить новость</a></li>
+        </ul>-->
+        <div class="tab-content anketa anketa_full">
+            <div role="tabpanel" class="tab-pane page active" id="prof_data">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box">200x200px</div>
+                    </div>
+                    <div class="col-md-6 full">
+                        <input type="text">
+                        <span>Имя</span>
+                        <input type="text">
+                        <span>Фамилия</span>
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Пол</span><br>
+                        <select class="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select class="month">
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                        </select>
+                        <select class="year">
+                            <option value="9999">9999</option>
+                            <option value="999">999</option>
+                            <option value="99">99</option>
+                            <option value="9">9</option>
+                        </select>
+                        <span>Дата рождения</span>
+                    </div>
+                </div>
+                <div class="add_school full">
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Измените пароль</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password">
+                            <span>Старый пароль</span>
+                            <input type="password">
+                            <span>Новый пароль</span>
+                            <input type="password">
+                            <span>Повторите пароль</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Адрес электронной почты</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email">
+                            <span>Текущий электронный адрес</span>
+                            <input type="email">
+                            <span>Новый электронный адрес</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Адрес страницы</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text">
+                            <span>Номер страницы</span>
+                            <input type="text">
+                            <span>Адрес страницы</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Региональные настройки</div>
+                        </div>
+                        <div class="col-md-6">
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Язык</span>
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Страна</span>
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Город</span>
+                        </div>
+                    </div>
+                    <a href="#">Сохранить информацию</a>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane page" id="event">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                </div>
+                </div>
+            <div role="tabpanel" class="tab-pane page" id="news">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="inner_wrapper">
+                            <img class="photo" src="img/photo_3.png">
+                        </div>
+                        <div>Имя Фамилия</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="go_top"><img src="img/go_top.png"></a>
+    </div>
+        <!--<ul class="pagi list">
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ul>-->
+        </div>
+</section>
+<footer>
+    <div class="container">
+        <ul class="list menu_btm">
+            <li><a href="#">О сайте</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">Правила</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+        </ul>
+    </div>
+</footer>
+<!--<div class="registr_form">
+    <form action="">
+        <input type="text"/><span>Имя</span>
+        <input type="text"/><span>Фамилия</span>
+        <input type="email"/><span>Электронный адрес</span>
+        <input type="password"/><span>Пароль</span>
+        <input type="password"/><span>Повторить пароль</span>
+        <input type="button" value="Зарегистрироваться"/>
+    </form>
+</div>-->
+<script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="script/bootstrap.min.js"></script>
+<script type="text/javascript" src="script/slick.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
