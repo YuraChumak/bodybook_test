@@ -73,6 +73,9 @@ h1{
 .fixed .little_logo{
     margin: 0 0 0 -50px;
 }
+.fixed.my_book .little_logo{
+	margin: 0;
+}
 .title{
     color: #697717;
     font-size: 18px;
@@ -341,7 +344,9 @@ footer .container{
 }
 .registr_form input,
 .two textarea,
-.three label{
+.three label,
+.set_event textarea,
+.set_event input{
     border: 2px solid #cede5e;
     border-radius: 5px;
     height: 26px;
@@ -401,7 +406,7 @@ nav ul li a:focus{
     color: #a0af35;
 }
 nav ul li a:hover,
-nav ul li a.active{
+nav ul li.active a{
     background: #a0af35 url("../img/flow_icon.png") no-repeat center bottom;
     color: #e6ed88;
 }
@@ -766,7 +771,8 @@ textarea{
     cursor: auto;
     padding: 3px;
 }
-.calendar textarea{
+.calendar textarea,
+.set_event textarea{
     border: 1px solid #cfd35a;
     height: 135px;
     padding: 5px;
@@ -805,11 +811,12 @@ div span.white{
     background-color: #f3f5b8;
 }
 .green_bg{
-    background: #cede5e url("../img/bookmark.png") no-repeat top 0 right 10px;
+    background: #cede5e;
     color: #a0af35;
     font-size: 16px;
     margin-top: 10px;
     height: 200px;
+    position: relative;
     width: 300px;
 }
 .green_bg video{
@@ -1147,4 +1154,42 @@ input.green_btn{
     display: block;
     margin: 0 auto;
     width: 165px;
+}
+.bookmark{
+    background: url("../img/bookmark.png") no-repeat;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 20px;
+}
+.list_of_spec.doctors.specialist .pagi{
+    margin-top: 200px;
+}
+.set_event input{
+    width: 500px;
+}
+.set_event textarea,
+.set_event input{
+    border-radius: 0;
+}
+.set_event label{
+    background: url("../img/choose.png") no-repeat right center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+.set_event label input{
+    display: none;
+    width: auto;
+}
+.set_event input:last-of-type{
+    background-color: #cede5e;
+    border: 0;
+    border-radius: 5px;
+    float: right;
+    font-size: 16px;
+    margin-right: 0;
+    width: auto;
 }

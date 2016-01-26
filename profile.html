@@ -16,340 +16,195 @@
         <a class="little_logo" href="#"><img src="img/little_logo.png"></a>
         <nav>
             <ul class="list">
-                <li><a href="#">Книга контактов</a></li>
-                <li><a href="#">Профиль</a></li>
-                <li><a href="#">Афиша</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Настройки</a></li>
+                <li><a href="contact_book.html">Книга контактов</a></li>
+                <li class="active"><a href="profile.html">Профиль</a></li>
+                <li><a href="afisha.html">Афиша</a></li>
+                <li><a href="news_list.html">Новости</a></li>
+                <li><a href="settings.html">Настройки</a></li>
                 <li><a href="#">Выйти</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
     </div>
 </header>
-<section class="list_of_spec doctors" id="target">
+<section class="list_of_spec doctors specialist" id="target">
     <div class="container">
         <ul class="list tabs profile nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">Все</a></li>
-            <li role="presentation"><a href="#spec" aria-controls="spec" role="tab" data-toggle="tab">Специалисты</a></li>
-            <li role="presentation"><a href="#centr" aria-controls="centr" role="tab" data-toggle="tab">Центры</a></li>
+            <li role="presentation" class="active"><a href="#prof_data" aria-controls="prof_data" role="tab" data-toggle="tab">Профессиональные данные</a></li>
+            <li role="presentation"><a href="#event" aria-controls="event" role="tab" data-toggle="tab">Добавить событие</a></li>
+            <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">Добавить новость</a></li>
         </ul>
-        <ul class="list choose">
-            <li class="dropdown">
-                <a id="label_1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Город</a>
-                <ul class="dropdown-menu" aria-labelledby="label1">
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a id="label_2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Направление</a>
-                <ul class="dropdown-menu" aria-labelledby="label2">
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                    <li><a href="#">AAA</a></li>
-                </ul>
-            </li>
-        </ul>
-        <form class="search" action="">
-            <input type="text" placeholder="Начните вводить специалиста/название центра здоровья">
-            <input type="button">
-        </form>
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane page active" id="all">
-            <div class="row">
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_3.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_2.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_2.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_2.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_2.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-            <div class="col-md-3">
-                <div class="inner_wrapper">
-                    <img class="photo" src="img/photo_2.png">
-                    <div class="hidden_block">
-                        <div>Насретдин Джаладин</div>
-                        <div>Санкт-Петербург, Тибетская медицина</div>
-                        <a href="#">Профиль</a>
-                        <a href="#">Записаться на приём</a>
-                        <a href="#">Написать сообщение</a>
-                    </div>
-                </div>
-                <div>Направление: позвоночник</div>
-                <img src="img/stars_grey.png">
-                <span>7 отзывов</span>
-            </div>
-        </div>
-        </div>
-            <div role="tabpanel" class="tab-pane page" id="spec">
+        <div class="tab-content anketa">
+            <div role="tabpanel" class="tab-pane page active" id="prof_data">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
+                        <div class="box">200x200px</div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_3.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
+                    <div class="col-md-5">
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Образование</span>
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Направление</span>
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Специализация</span>
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Страна</span>
+                        <select>
+                            <option label="first"></option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                        <span>Город</span><br>
+                        <select class="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select class="month">
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                        </select>
+                        <select class="year">
+                            <option value="9999">9999</option>
+                            <option value="999">999</option>
+                            <option value="99">99</option>
+                            <option value="9">9</option>
+                        </select>
+                        <span>Дата выпуска</span>
                     </div>
                 </div>
+                <div class="add_school">
+                    <div>Добавить образование</div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Место работы</div>
+                        </div>
+                        <div class="col-md-5">
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Место работы</span>
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Город</span>
+                        </div>
+                    </div>
+                    <a href="#">Сохранить информацию</a>
+                </div>
             </div>
-            <div role="tabpanel" class="tab-pane page" id="centr">
+            <div role="tabpanel" class="tab-pane page" id="event">
+                <ul class="list choose">
+                    <li class="dropdown">
+                        <a id="label_l" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Время</a>
+                        <ul class="dropdown-menu" aria-labelledby="label_1">
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a id="label_2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Дата</a>
+                        <ul class="dropdown-menu" aria-labelledby="label_2">
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a id="label_3" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Город</a>
+                        <ul class="dropdown-menu" aria-labelledby="label_2">
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a id="label_4" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Места</a>
+                        <ul class="dropdown-menu" aria-labelledby="label_2">
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a id="label_5" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Направление</a>
+                        <ul class="dropdown-menu" aria-labelledby="label_2">
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                            <li><a href="#">AAA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form action="" class="set_event">
+                    <input type="text">
+                    <textarea></textarea>
+                    <label>
+                        Прикрепить
+                        <input type="file">
+                    </label>
+                    <input type="button" value="Отправить">
+                </form>
+            </div>
+            <div role="tabpanel" class="tab-pane page" id="news">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_3.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="inner_wrapper">
-                            <img class="photo" src="img/photo_2.png">
-                            <div class="hidden_block">
-                                <div>Насретдин Джаладин</div>
-                                <div>Санкт-Петербург, Тибетская медицина</div>
-                                <a href="#">Профиль</a>
-                                <a href="#">Записаться на приём</a>
-                                <a href="#">Написать сообщение</a>
-                            </div>
-                        </div>
-                        <div>Направление: позвоночник</div>
-                        <img src="img/stars_grey.png">
-                        <span>7 отзывов</span>
-                    </div>
+                    <form action="" class="set_event">
+                        <input type="text">
+                        <textarea></textarea>
+                        <label>
+                            Прикрепить
+                            <input type="file">
+                        </label>
+                        <input type="button" value="Отправить">
+                    </form>
                 </div>
             </div>
         </div>
-        <ul class="pagi list">
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-        </ul>
         <a class="go_top"><img src="img/go_top.png"></a>
-        </div>
+    </div>
+    </div>
 </section>
 <footer>
     <div class="container">
@@ -361,7 +216,7 @@
         </ul>
     </div>
 </footer>
-<div class="registr_form">
+<!--<div class="registr_form">
     <form action="">
         <input type="text"/><span>Имя</span>
         <input type="text"/><span>Фамилия</span>
@@ -370,7 +225,7 @@
         <input type="password"/><span>Повторить пароль</span>
         <input type="button" value="Зарегистрироваться"/>
     </form>
-</div>
+</div>-->
 <script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="script/bootstrap.min.js"></script>
 <script type="text/javascript" src="script/slick.min.js"></script>

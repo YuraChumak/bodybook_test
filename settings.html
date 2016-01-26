@@ -11,16 +11,16 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
-<header>
+<header class="fixed my_book">
     <div class="container">
-        <a class="little_logo" href="#"><img src="img/little_logo.png"></a>
+        <a class="little_logo" href="main.html"><img src="img/little_logo.png"></a>
         <nav>
             <ul class="list">
-                <li><a href="#">Книга контактов</a></li>
-                <li><a href="#">Профиль</a></li>
-                <li><a href="#">Афиша</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Настройки</a></li>
+                <li><a href="my_book.html">Моя книга</a></li>
+                <li><a href="spec_and_centers.html">Специалисты<br> и центры здоровья</a></li>
+                <li><a href="afisha.html">Афиша</a></li>
+                <li><a href="news_list.html">Новости</a></li>
+                <li class="active"><a href="settings.html">Настройки</a></li>
                 <li><a href="#">Выйти</a></li>
             </ul>
         </nav>
@@ -29,18 +29,22 @@
 </header>
 <section class="list_of_spec doctors specialist" id="target">
     <div class="container">
-        <ul class="list tabs profile nav nav-tabs" role="tablist">
+        <!--<ul class="list tabs profile nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#prof_data" aria-controls="prof_data" role="tab" data-toggle="tab">Профессиональные данные</a></li>
             <li role="presentation"><a href="#event" aria-controls="event" role="tab" data-toggle="tab">Добавить событие</a></li>
             <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">Добавить новость</a></li>
-        </ul>
-        <div class="tab-content anketa">
+        </ul>-->
+        <div class="tab-content anketa anketa_full">
             <div role="tabpanel" class="tab-pane page active" id="prof_data">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="box">200x200px</div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6 full">
+                        <input type="text">
+                        <span>Имя</span>
+                        <input type="text">
+                        <span>Фамилия</span>
                         <select>
                             <option label="first"></option>
                             <option value="volvo">Volvo</option>
@@ -48,39 +52,7 @@
                             <option value="opel">Opel</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <span>Образование</span>
-                        <select>
-                            <option label="first"></option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        <span>Направление</span>
-                        <select>
-                            <option label="first"></option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        <span>Специализация</span>
-                        <select>
-                            <option label="first"></option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        <span>Страна</span>
-                        <select>
-                            <option label="first"></option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        <span>Город</span><br>
+                        <span>Пол</span><br>
                         <select class="day">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -99,16 +71,54 @@
                             <option value="99">99</option>
                             <option value="9">9</option>
                         </select>
-                        <span>Дата выпуска</span>
+                        <span>Дата рождения</span>
                     </div>
                 </div>
-                <div class="add_school">
-                    <div>Добавить образование</div>
+                <div class="add_school full">
+                    <div class="border_top"></div>
                     <div class="row">
                         <div class="col-md-3">
-                            <div>Место работы</div>
+                            <div>Измените пароль</div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6">
+                            <input type="password">
+                            <span>Старый пароль</span>
+                            <input type="password">
+                            <span>Новый пароль</span>
+                            <input type="password">
+                            <span>Повторите пароль</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Адрес электронной почты</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email">
+                            <span>Текущий электронный адрес</span>
+                            <input type="email">
+                            <span>Новый электронный адрес</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Адрес страницы</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text">
+                            <span>Номер страницы</span>
+                            <input type="text">
+                            <span>Адрес страницы</span>
+                        </div>
+                    </div>
+                    <div class="border_top"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div>Региональные настройки</div>
+                        </div>
+                        <div class="col-md-6">
                             <select>
                                 <option label="first"></option>
                                 <option value="volvo">Volvo</option>
@@ -116,7 +126,15 @@
                                 <option value="opel">Opel</option>
                                 <option value="audi">Audi</option>
                             </select>
-                            <span>Место работы</span>
+                            <span>Язык</span>
+                            <select>
+                                <option label="first"></option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="opel">Opel</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                            <span>Страна</span>
                             <select>
                                 <option label="first"></option>
                                 <option value="volvo">Volvo</option>
