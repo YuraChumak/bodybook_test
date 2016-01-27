@@ -1163,6 +1163,9 @@ input.green_btn{
     top: 0;
     width: 20px;
 }
+.bookmark:hover{
+    background: url("../img/bookmark_active.png") no-repeat;
+}
 .list_of_spec.doctors.specialist .pagi{
     margin-top: 200px;
 }
@@ -1172,6 +1175,7 @@ input.green_btn{
 .set_event textarea,
 .set_event input{
     border-radius: 0;
+
 }
 .set_event label{
     background: url("../img/choose.png") no-repeat right center;
