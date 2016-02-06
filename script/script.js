@@ -64,3 +64,8 @@ $('.slider').slick({
         $('html, body').animate({scrollTop : 0},600);
         return false;
     });
+    $(function(){
+        $.datepicker.setDefaults(
+        $.extend($.datepicker.regional["ru"]));
+        $("#datepicker").datepicker();
+    });

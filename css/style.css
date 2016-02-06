@@ -799,10 +799,15 @@ textarea{
     margin-right: 10px;
     width: 50px;
 }
-div span.pink{
+a.yellow{
+    background-color: #ffcc00;
+}
+div span.pink,
+a.pink{
     background-color: #f16464;
 }
-div span.green{
+div span.green,
+a.green{
     background-color: #a0af35;
 }
 div span.white{
@@ -906,7 +911,6 @@ div span.white{
 }
 .record .call_me{
     color: #fff;
-    margin-top: 270px;
     padding: 0 160px;
     text-align: center;
 }
@@ -1196,4 +1200,81 @@ input.green_btn{
     font-size: 16px;
     margin-right: 0;
     width: auto;
+}
+/* Calendar*/
+.ui-datepicker-inline {
+    background-color: rgba(186,192,20,0.7);
+    margin: 0 auto;
+    padding: 10px 0 20px 30px;
+    width: 450px;
+}
+.calend_slider{
+   margin: 50px 0;
+}
+#datepicker{
+    position: relative;
+}
+a.ui-state-default{
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    height: 38px;
+    padding-top: 2px;
+    text-align: center;
+    width: 38px;
+}
+a.ui-state-default.ui-state-active{
+    box-shadow: 0 0 0 1px #f3f5b7 inset;
+}
+.calendar table span{
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+.calendar .ui-datepicker-year{
+    display: none;
+}
+.calendar .ui-datepicker-title{
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    top: -40px;
+}
+.calendar .ui-datepicker-title span{
+    background: transparent;
+    color: #a0af35;
+    font-size: 20px;
+    font-weight: bold;
+}
+a.ui-datepicker-next,
+a.ui-datepicker-prev{
+    background: url("../img/right_arrow.png") no-repeat;
+    display: block;
+    cursor: pointer;
+    height: 0;
+    overflow: hidden;
+    padding-top: 22px;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    width: 15px;
+}
+a.ui-datepicker-prev{
+    background: url("../img/left_arrow.png") no-repeat;
+    right: auto;
+    left: 20%;
+}
+.record .calendar .ui-datepicker-inline{
+    background-color: transparent;
+}
+.record .calendar .ui-datepicker-next,
+.record .calendar .ui-datepicker-prev{
+    display: none;
+}
+.record a.ui-state-default{
+    font-weight: normal;
+}
+.record .calend_slider{
+    margin: 50px 0 0;
 }
